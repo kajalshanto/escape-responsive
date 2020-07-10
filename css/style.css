@@ -72,6 +72,7 @@ p {
 .wrapper {
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .wrapper-sm {
@@ -397,5 +398,61 @@ p {
     text-align: center;
 }
 
-
 /* team end */
+
+/* contact start */
+#contact {
+    padding: 70px 0;
+    background-color: #7690c5;
+}
+
+.contact-head h1,
+.contact-head .head-left {
+    margin-bottom: 0;
+    color: white;
+}
+
+.contact-para {
+    font-size: 22px;
+    text-align: left;
+    color: white;
+}
+
+.contact-left {
+    width: 50%;
+    float: left;
+}
+
+.contact-right {
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+
+.form-input {
+    font-family: Bradon_med;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.form-input:focus {
+    border: red;
+}
+
+.btn {
+    font-family: Bradon_med;
+    width: 110%;
+    padding: 20px 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* contact end */
