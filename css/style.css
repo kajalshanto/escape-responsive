@@ -52,8 +52,15 @@ p {
     color: white;
     background-color: transparent;
     text-transform: capitalize;
-    border: 2px solid white;
+    border: 3px solid white;
     padding: 16px 65px;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: white;
 }
 
 .head-style {
@@ -78,6 +85,7 @@ p {
 .wrapper-sm {
     width: 70%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .mb-7 {
@@ -316,20 +324,18 @@ p {
 /* client end */
 
 /* company start */
-#company {
-    padding: 50px 0;
-}
-
 .brands {
-    text-align: center;
+    overflow: hidden;
+    padding: 60px 0 50px;
 }
 
 .single-brands {
-    padding: 0 30px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
+    float: left;
+    padding: 0 3.8%;
+}
+
+.single-brands img {
+    width: 100%;
 }
 
 /* company end */
@@ -390,6 +396,12 @@ p {
     font-size: 18px;
     height: 20px;
     width: 20px;
+    transition: .4s;
+}
+
+.icons .fab:hover {
+    color: #777;
+    background-color: white;
 }
 
 .team-bottom {
@@ -436,23 +448,29 @@ p {
     color: #fff;
 }
 
-.cont-single-social {
-    width: 46%;
-    margin: 2%;
-    float: left;
+.contact-social ul {
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
-.cont-single-social .fab,
-.cont-single-social .fas {
-    font-size: 35px;
-    margin-top: 6px;
-    width: 20%;
+.contact-social ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 50px;
+    min-width: 160px;
 }
 
-.soc-text {
-    margin-left: 12px;
-    width: 70%;
+.contact-social ul li i {
+    margin-right: 10px;
+    font-size: 30px;
+    vertical-align: text-bottom;
+    min-width: 35px;
+}
+
+.contact-social ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 .contact-right {
@@ -461,12 +479,16 @@ p {
     margin: 5%;
 }
 
+.contact-right input,
+.contact-right textarea {
+    width: 100%;
+}
+
 .form-input {
     font-family: Bradon_med;
     display: block;
-    width: 100%;
     border: none;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
     border-radius: 4px;
 }
@@ -475,16 +497,35 @@ p {
     border: red;
 }
 
-.btn {
+.btn-area {
+    overflow: hidden;
+    width: 107%;
+}
+
+.btn-area button {
     font-family: Bradon_med;
-    width: 106%;
-    padding: 20px 60px;
-    font-size: 16px;
-    text-transform: uppercase;
+    width: 46%;
+    margin-right: 7%;
+    padding: 15px 40px;
+    font-size: 18px;
     border-radius: 4px;
     border: none;
-    outline: none;
     cursor: pointer;
+    transition: .4s;
+}
+
+.btn-area button:focus {
+    border: none;
+    outline: none;
+}
+
+.btn-area button:hover {
+    color: white;
+    background-color: #777;
+}
+
+.btn-area button:last-child {
+    margin-right: 0%;
 }
 
 /* contact end */
