@@ -368,6 +368,8 @@ p {
 .brands {
     overflow: hidden;
     padding: 60px 0 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .single-brands {
