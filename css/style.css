@@ -923,7 +923,64 @@ p {
 @media (max-width: 767.98px) {}
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    .brand {
+        margin-top: 22px;
+    }
+
+    .banner-area {
+        padding-top: 40%;
+    }
+
+    .head-style,
+    .head-left {
+        font-size: 50px;
+    }
+
+    .dev-col-right img,
+    .brand-col-left img {
+        width: 100%;
+    }
+
+    .single-service {
+        width: 100%;
+    }
+
+    .testi-img {
+        width: 22%;
+    }
+
+    .icons .fab {
+        padding: 8px;
+        margin: 0 4px;
+        font-size: 18px;
+    }
+
+    .contact-right {
+        margin: 110px 5% 0;
+    }
+
+    .btn-area {
+        width: 104%;
+    }
+
+    .btn-area button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-social ul li {
+        margin-bottom: 15px;
+    }
+
+    #footer {
+        margin-top: -2px;
+    }
+
+    #footer p {
+        font-size: 20px;
+    }
+}
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {}
