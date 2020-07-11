@@ -584,6 +584,7 @@ p {
 #footer {
     padding: 20px 0;
     background-color: #7690c5;
+    margin-top: -2px;
 }
 
 #footer p {
@@ -1319,7 +1320,43 @@ p {
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-area {
+        padding-top: 25%;
+    }
 
-/* Extra large devices (large desktops) */
-/*  No media query since the extra-large breakpoint has no upper bound on its width */
+
+    .service-img {
+        width: 20%;
+    }
+
+    .service-text {
+        width: 71%;
+    }
+
+    .icons .fab {
+        padding: 14px;
+        margin: 0 6px;
+    }
+
+    .contact-social ul li {
+        margin-bottom: 20px;
+    }
+
+    .contact-right {
+        margin: 140px 5% 0;
+    }
+
+    .btn-area {
+        overflow: hidden;
+        width: 104%;
+    }
+
+    .btn-area button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
